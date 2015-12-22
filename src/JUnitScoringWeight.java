@@ -16,7 +16,7 @@ import org.junit.runners.model.InitializationError;
  * been adapted from the ScoringWeight for JUnit tests which are used on 
  * Web-CAT (web-cat.org) for automated Java programming assignment grading.
  * 
- * @author Neil Allison <a href="mailto:neiljallison@gmail.com">
+ * @author Neil Allison, <a href="mailto:neiljallison@gmail.com">neiljallison@gmail.com</a>
  */
 public class JUnitScoringWeight {
 
