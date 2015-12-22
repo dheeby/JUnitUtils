@@ -16,7 +16,7 @@ import org.junit.runners.model.InitializationError;
  * been adapted from the ScoringWeight for JUnit tests which are used on 
  * Web-CAT (web-cat.org) for automated Java programming assignment grading.
  * 
- * @author Neil Allison (neiljallison@gmail.com)
+ * @author Neil Allison <a href="mailto:neiljallison@gmail.com">
  */
 public class JUnitScoringWeight {
 
@@ -122,11 +122,5 @@ public class JUnitScoringWeight {
 		}
 
 		return scoreTotal / scoreMax;
-	}
-
-	public static void main(String[] args) {
-		JUnitScoringWeight jusw = new JUnitScoringWeight();
-		double scoreWeight = jusw.calculateScoreWeight(SimpleTest.class);
-		System.out.printf("Percentage Score: %.3f%%%n", scoreWeight * 100);
 	}
 }
